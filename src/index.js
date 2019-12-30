@@ -1,6 +1,6 @@
-const cities = ['Buenos Aires','Mexico','Guadalajara','Cordoba']
-const randomString = ()=>{
-  const string = cities[Math.floor(Math.random()*cities.length)];
+const cities = ['Buenos Aires', 'Mexico', 'Guadalajara', 'Cordoba'];
+const randomString = () => {
+  const string = cities[Math.floor(Math.random() * cities.length)];
   return string;
 };
 const reverseString2 = str => {
@@ -15,5 +15,5 @@ const reverseString2 = str => {
         .join('')
     );
   });
-}
+};
 module.exports = randomString;
