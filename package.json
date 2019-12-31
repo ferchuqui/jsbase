@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "test:watch":"jest --watch"
+    "test:watch": "jest --watch"
   },
   "author": "\"Luis Fernando Farji\" <fernando.farji@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "jest": "^24.9.0"
+    "jest": "^24.9.0",
+    "react-test-renderer": "^16.12.0"
   }
 }
